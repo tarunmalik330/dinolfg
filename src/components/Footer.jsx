@@ -15,7 +15,7 @@ const Footer = () => {
         <img
           src={FooterImg}
           alt="FooterImg"
-          className=" absolute bottom-0 w-full lg:h-[341px] sm:h-[170px] h-[112px]"
+          className=" absolute bottom-0 w-full lg:h-[341px]"
         />
         <div className="relative z-[1] container xl:max-w-[1038px] mx-auto xl:px-3 px-6">
           <div className=" flex flex-col justify-center items-center sm:pb-[270px] pb-[200px]">

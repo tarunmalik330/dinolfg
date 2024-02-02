@@ -57,7 +57,7 @@ const UtilityAndUsecase = () => {
             <img
               src={UtilityCartoon1}
               alt="UtilityCartoon1"
-              className=" w-full max-w-[255.51px] vert_move1 lg:translate-y-[-27px] mt-[60px] lg:mt-0 lg:h-[323px]"
+              className=" w-full sm:max-w-[255.51px] max-w-[180px] vert_move1 lg:translate-y-[-27px] mt-[60px] lg:mt-0 lg:h-[323px]"
             />
           </div>
           <div
@@ -67,7 +67,7 @@ const UtilityAndUsecase = () => {
             <img
               src={UtilityCartoon2}
               alt="UtilityCartoon2"
-              className="w-full max-w-[267px] lg:h-[334.16px] vert_move2 lg:translate-y-[-41px]"
+              className="w-full sm:max-w-[267px] max-w-[180px] lg:h-[334.16px] vert_move2 lg:translate-y-[-41px]"
             />
             <p className="lg:max-w-[681px] lg:text-end text-center mb-[70px] lg:mb-0 text-white font-normal lg:text-[32px] text-[24px]">
               We are going to have staking and buyback/ burning mechanism

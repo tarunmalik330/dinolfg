@@ -46,7 +46,7 @@ const Tokenomics = () => {
             Tokenomics
           </h2>
           <div className="flex items-center justify-center">
-            <div className="relative xl:max-w-[589.84px] lg:max-w-[515px] max-w-[430px]">
+            <div className="relative xl:max-w-[589.84px] lg:max-w-[515px] sm:max-w-[430px] max-w-[320px]">
               <img
                 src={TokenomicsChart}
                 alt="TokenomicsChart"
@@ -141,10 +141,10 @@ const Tokenomics = () => {
                   <div className="flex gap-[32px]">
                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#FBA11D]"></div>
                     <div className="flex flex-col gap-[5px]">
-                      <p className="text-[#FBA11D] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#FBA11D] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         333,333,333
                       </p>
-                      <p className="text-white leading-[138%] font-normal text-[24px]">
+                      <p className="text-white leading-[138%] font-normal sm:text-[24px] text-[20px]">
                         Supply
                       </p>
                     </div>
@@ -152,13 +152,13 @@ const Tokenomics = () => {
                   <div className="flex gap-[32px]">
                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#23AAAC]"></div>
                     <div className="flex flex-col gap-[5px]">
-                      <p className="text-[#23AAAC] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         95% Uniswa
                       </p>
-                      <p className="text-[#23AAAC] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         5% Marketing
                       </p>
-                      <p className="text-white leading-[138%] text-[32px] font-normal">
+                      <p className="text-white leading-[138%] sm:text-[32px] text-[24px] font-normal">
                         Allocation
                       </p>
                     </div>
@@ -166,7 +166,7 @@ const Tokenomics = () => {
                   <div className="flex gap-[32px]">
                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#D45B07]"></div>
                     <div className="flex flex-col gap-[5px]">
-                      <p className="text-[#D45B07] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#D45B07] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         No Tax
                       </p>
                     </div>
@@ -174,7 +174,7 @@ const Tokenomics = () => {
                   <div className="flex gap-[32px]">
                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#FB5352]"></div>
                     <div className="flex flex-col gap-[5px]">
-                      <p className="text-[#FB5352] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#FB5352] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         No Mint Function
                       </p>
                     </div>
@@ -182,7 +182,7 @@ const Tokenomics = () => {
                   <div className="flex gap-[32px]">
                     <div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#8EC627]"></div>
                     <div className="flex flex-col gap-[5px]">
-                      <p className="text-[#8EC627] leading-[119%] text-[32px] font-normal">
+                      <p className="text-[#8EC627] leading-[119%] sm:text-[32px] text-[24px] font-normal">
                         Liquidity lock for 1 year
                       </p>
                     </div>

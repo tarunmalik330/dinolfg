@@ -47,7 +47,7 @@ const Faq = () => {
           className=" absolute top-0 left-0 right-0 w-full"
         />
         <h4
-          className="ff_chewy text-[#fff] text-[64px] font-normal leading-[131%] text-center"
+          className="ff_chewy text-[#fff] sm:text-[64px] text-[50px] font-normal leading-[131%] text-center"
           data-aos="zoom-in-left"
         >
           FAQs

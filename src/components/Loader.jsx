@@ -3,7 +3,7 @@ import React from "react";
 const Loader = () => {
   return (
     <>
-      <div className="loading body_bg bg-BgPreloader lg:bg-BgSize bg-cover bg-center bg-repeat min-h-screen fixed flex flex-col justify-center items-center left-0 right-0">
+      <div className="loading bg-gradient-to-b from-[#c3e9ff] to-[#eaf7ff] min-h-screen fixed flex flex-col justify-center items-center left-0 right-0">
         <div className="typewriter">
           <h1 className="ff_luckydino font-normal cursor-pointer leading-[94%] drop-shadow-[0px_1.337px_0px_#000] sm:text-[80px] text-[50px]">
             <span className="text-[#FBA11D]">D</span>

@@ -18,8 +18,8 @@ const Footer = () => {
           className=" absolute bottom-0 w-full lg:h-[341px]"
         />
         <div className="relative z-[1] container xl:max-w-[1038px] mx-auto xl:px-3 px-6">
-          <div className=" flex flex-col justify-center items-center sm:pb-[270px] pb-[200px]">
-            <h2 className="text-[#FBA11D] drop-shadow-[0px_2.745px_0px_#000] leading-[127%] sm:text-[80.366px] text-[60px] font-normal text-center lg:mb-[33px] sm:mb-[20px] mb-[5px] ff_luckydino">
+          <div className=" flex flex-col justify-center items-center sm:pb-[270px] pb-[175px]">
+            <h2 className="text-[#FBA11D] cursor-pointer drop-shadow-[0px_2.745px_0px_#000] leading-[127%] sm:text-[80.366px] text-[60px] font-normal text-center lg:mb-[33px] sm:mb-[20px] mb-[5px] ff_luckydino">
               D<span className="text-[#23AAAC]">i</span>
               <span className="text-[#D45B07]">n</span>
               <span className="text-[#8EC627]">o</span>

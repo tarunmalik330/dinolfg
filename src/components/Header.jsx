@@ -7,6 +7,11 @@ import CartoonImg2 from "../assets/images/web.p/CartoonImg2.webp";
 
 const Header = () => {
   const [nav, setNav] = useState(true);
+  if (nav === false) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <>
       <div className="bg-BgHeader lg:bg-BgSize bg-cover bg-center bg-repeat xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[930px] h-[600px] relative">

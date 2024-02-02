@@ -8,9 +8,9 @@ import CartoonImg2 from "../assets/images/web.p/CartoonImg2.webp";
 const Header = () => {
   const [nav, setNav] = useState(true);
   if (nav === false) {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add("max-lg:overflow-hidden");
   } else {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
     <>

@@ -7,7 +7,10 @@ import Timegrass from "../assets/images/web.p/timelinegrass.webp";
 
 const Roadmap = () => {
   return (
-    <div id="Roadmap" className="bg-[#09655A] sm:pb-[200px] pb-[68px]">
+    <div
+      id="Roadmap"
+      className="bg-[#09655A] sm:pb-[200px] pb-[68px] my-[-2px]"
+    >
       <h2
         className="sm:text-[64px] text-[54px] font-normal text-white text-center ff_chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-[40px]"
         data-aos="zoom-in"

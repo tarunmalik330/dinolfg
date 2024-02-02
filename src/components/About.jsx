@@ -6,7 +6,10 @@ import AboutCartoon from "../assets/images/web.p/AboutCartoon.webp";
 const About = () => {
   return (
     <>
-      <div id="About" className="bg-[#09655A] relative sm:pt-[88px] pt-[40px]">
+      <div
+        id="About"
+        className="bg-[#09655A] relative sm:pt-[88px] pt-[40px] mt-[-2px]"
+      >
         <img
           src={AboutTree1}
           alt="AboutTree1"

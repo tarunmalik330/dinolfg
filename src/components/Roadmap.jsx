@@ -23,7 +23,7 @@ const Roadmap = () => {
             className="flex sm:flex-row flex-col sm:items-center xl:gap-[45px] lg:gap-[25px] gap-[14px] relative z-10"
             data-aos="zoom-in-right"
           >
-            <h3 className="lg:text-[200px] sm:text-[120px] text-[70px] font-normal md:w-[auto] w-[135px] leading-[130%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
+            <h3 className="lg:text-[200px] sm:text-[120px] text-[70px] font-normal md:w-[auto] w-[135px] md:leading-[130%] leading-[76%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
               01{" "}
             </h3>
             <ol className="flex flex-col gap-4 list-disc pl-[30px]">
@@ -40,7 +40,7 @@ const Roadmap = () => {
             <img
               src={heloImg}
               alt="heloImg"
-              className="md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-8%] max-w-[90px] sm:max-w-[120px]"
+              className="md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-8%] max-w-[80px] sm:max-w-[120px]"
             />
           </div>
           <div

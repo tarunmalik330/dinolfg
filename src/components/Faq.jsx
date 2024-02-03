@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { UpArrowsvg } from "./IconImg";
 import { LowerArrowsvg } from "./IconImg";
 import FaqLayer from "../assets/images/web.p/FaqLayer.webp";
 

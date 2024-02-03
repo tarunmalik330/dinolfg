@@ -122,24 +122,6 @@ export const FooterInstagram = () => {
     </div>
   );
 };
-export const UpArrowsvg = () => {
-  return (
-    <div className=" w-[36px] h-[36px] cursor-pointer bg-[#fff] rounded-[37px] flex items-center justify-center transition-all duration-300 ease-linear ">
-      <svg
-        width="16"
-        height="9"
-        viewBox="0 0 16 9"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2.28571 8.53763e-07L8 5.625L13.7143 3.54204e-07L16 1.125L8 9L-3.44227e-07 1.125L2.28571 8.53763e-07Z"
-          fill="#0A4740"
-        />
-      </svg>
-    </div>
-  );
-};
 export const LowerArrowsvg = () => {
   return (
     <div className=" w-[36px] h-[36px] cursor-pointer bg-[#fff] rounded-[37px] flex items-center justify-center transition-all duration-300 ease-linear ">

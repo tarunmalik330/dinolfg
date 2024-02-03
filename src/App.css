@@ -2,6 +2,26 @@
       scroll-behavior: smooth !important;
     }
 
+    .helo-header {
+      animation: fly 7000ms linear infinite;
+    }
+
+    @keyframes fly {
+      0% {
+        transform: translate(0, 0);
+      }
+
+      50% {
+        transform: translate(20px, -20px);
+      }
+
+
+
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+
     @keyframes walk {
       0% {
         background-position: 0px
@@ -172,6 +192,7 @@
         width: 100%
       }
     }
+
     @keyframes blink-caret {
 
       from,

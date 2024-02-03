@@ -69,7 +69,7 @@ const Faq = () => {
                       openAccordion === index
                         ? "rounded-tl-[40.5px] rounded-tr-[40.5px]"
                         : "rounded-[40.5px] "
-                    } ff_Balsamiq text-[#fff] text-[16px] sm:text-[20px] font-bold leading-[116%]`}
+                    } ff_Balsamiq text-[#fff]  text-[14px] sm:text-[20px] font-bold leading-[116%]`}
                   >
                     {item.title}
                   </div>
@@ -84,7 +84,7 @@ const Faq = () => {
                 <div
                   className={`accordion-content ${
                     openAccordion === index ? "open" : ""
-                  } ff_Balsamiq text-[16px] text-[#fff] font-normal `}
+                  } ff_Balsamiq sm:text-[16px] text-[14px] text-[#fff] font-normal `}
                 >
                   {item.content}
                 </div>
